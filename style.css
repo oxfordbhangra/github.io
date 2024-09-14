@@ -14,7 +14,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    font-size: 1.5vw
+    font-size: 1.5vw;
+    height: 60vh;
+    
+
    
 }
 
@@ -121,6 +124,9 @@ ul {
     }
     h1 {
         font-size:200%;
+    }
+    p {
+        font-size: 150%;
     }
 }
 
