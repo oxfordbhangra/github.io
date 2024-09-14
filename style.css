@@ -155,6 +155,7 @@ figure > figcaption {
     }
     body {
         width: 100%;
+        
     }
     body > header  {
         height: 17%;
@@ -171,5 +172,26 @@ figure > figcaption {
     #committee-photos > figure {
         width: 100%;
         height: auto;
+    }
+
+    p {
+        height: 70%;
+        width: 100%;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    article {
+        margin: 0;
+        padding: 0;
+    }
+    #main-content > div {
+        height: 70%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        
     }
 }
