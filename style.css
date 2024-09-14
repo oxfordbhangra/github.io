@@ -118,17 +118,6 @@ ul {
     margin-top: 20px;
 }
 
-@media screen and (max-width:768px){
-    body {
-        width: 100%
-    }
-    h1 {
-        font-size:200%;
-    }
-    p {
-        font-size: 150%;
-    }
-}
 
 
 #committee-photos {
@@ -147,4 +136,22 @@ ul {
 
 figure > figcaption {
     margin-left: 15%;
+}
+
+@media (max-width: 600px) {
+    #nav-ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-ul a {
+        display: block;
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    #banner {
+        height: 10%;
+    }
 }
