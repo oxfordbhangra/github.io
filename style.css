@@ -1,0 +1,143 @@
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: serif;
+    white-space: nowrap;
+    width: 16%;
+}
+
+#bhangralogo {
+    height: auto;
+    width: 20vh;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+
+body > header {
+    color:#182842;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 10px;
+}
+
+.navbutton {
+    color: #182842;
+    text-decoration: none;
+    padding: 12px;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    background-color: #182842;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family:sans-serif;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+footer > img {
+    border-radius: 100%;
+}
+
+body > footer {
+    background-color:white;
+    display: flex;
+    color: #182842;
+    font-family: serif;
+    margin: 10px;
+    
+}
+
+ul {
+    margin: 0px;
+}
+
+cite>a {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#footer-ul > div > li > a {
+    column-rule: white;
+    text-decoration: none;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(autofit minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+
+#image-gallery > img {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+
+#committee-photos {
+    display: grid;
+    grid-template-columns: repeat(autofit minmax(200px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+
+#committee-photos > figure > img {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+figure > figcaption {
+    margin-left: 15%;
+}
