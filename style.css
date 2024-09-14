@@ -146,12 +146,23 @@ figure > figcaption {
 
     #nav-ul a {
         display: block;
-        width: 100%;
+        width: 50%;
     }
     body {
         width: 100%;
     }
-    #banner {
-        height: 10%;
+    body > header  {
+        height: 17%;
+    }
+    #bhangralogo {
+        height: 10vh;
+        width: auto;
+    }
+    #image-gallery > img {
+        width: 100%;
+    };
+
+    #committee-photos > figure {
+        width: 100%;
     }
 }
