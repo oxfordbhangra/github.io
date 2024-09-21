@@ -179,7 +179,7 @@ figure > figcaption {
     #committee-photos > figure > img {
         width: 100%;
         height: auto;
-        margin-left: 0;
+        margin: auto;
     
     }
 
@@ -203,6 +203,7 @@ figure > figcaption {
     }
     figure {
         width: 100%;
+        margin: 0;
     }
     
     h2 {
@@ -217,7 +218,8 @@ figure > figcaption {
     
     #committee-photos {
         margin-left: 0;
-        margin-right: 115px;
+        margin-right: 0;
+        
     }
 
     h1 {
