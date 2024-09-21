@@ -119,26 +119,28 @@ ul {
     margin-top: 20px;
 }
 
+article {
+    margin: 0;
+}
 
+figure {
+    display: inline-block;
+    margin: 0 0 0 32%;
+}
 
 #committee-photos {
     display: grid;
     grid-template-columns: repeat(autofit minmax(200px, 1fr));
     gap: 10px;
-    margin: 20px;
-    margin-left: 15%;
 }
 
 #committee-photos > figure > img {
     width: 50%;
     height: auto;
-    margin-left: 15%;
     margin-top: 20px;
+    display: block;
 }
 
-figure > figcaption {
-    margin-left: 15%;
-}
 
 @media (max-width: 600px) {
     #nav-ul {
@@ -213,7 +215,7 @@ figure > figcaption {
     figcaption {
         font-size: 14px;
         padding: 0;
-        margin-left: 0;
+        margin: 0;
     }
     
     #committee-photos {
