@@ -49,6 +49,7 @@ body > header > nav > ul {
     color: #182842;
     text-decoration: none;
     padding: 12px;
+    font-family: sans-serif;
 }
 
 body > main article {
@@ -125,10 +126,11 @@ ul {
     grid-template-columns: repeat(autofit minmax(200px, 1fr));
     gap: 10px;
     margin: 20px;
+    margin-left: 15%;
 }
 
 #committee-photos > figure > img {
-    width: 70%;
+    width: 50%;
     height: auto;
     margin-left: 15%;
     margin-top: 20px;
@@ -166,12 +168,14 @@ figure > figcaption {
     }
     #image-gallery > img {
         width: 100%;
-        height: auto
-    };
+        height: auto;
+        margin-left: 0;
+    }
 
-    #committee-photos > figure {
+    #committee-photos > figure > img {
         width: 100%;
         height: auto;
+    
     }
 
     p {
@@ -186,12 +190,33 @@ figure > figcaption {
         margin: 0;
         padding: 0;
     }
-    #main-content > div {
+    #main-content {
         height: 70%;
         width: 100%;
-        margin: 0;
-        padding: 0;
-
         
+    }
+    figure {
+        width: 100%;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    figcaption {
+        font-size: 15px;
+    }
+    
+    #committee-photos {
+        margin-left: 0;
+        margin-right: 130px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .navbutton {
+        font-size: 10px;
     }
 }
