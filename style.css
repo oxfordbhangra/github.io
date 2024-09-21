@@ -186,7 +186,7 @@ figure > figcaption {
     p {
         height: 70%;
         width: 100%;
-        font-size: 15px;
+        font-size: 14px;
         margin: 0;
         padding: 0;
         margin-bottom: 20px;
@@ -219,7 +219,7 @@ figure > figcaption {
     }
 
     h1 {
-        font-size: 15px;
+        font-size: 17px;
         white-space: pre;
         margin: 0;
         padding: 0;
@@ -232,8 +232,9 @@ figure > figcaption {
     }
 
     .navbutton {
-        font-size: 10px;
+        font-size: 11px;
         padding: 0;
+        margin-right: 8px;
     }
 
     #main-text {
